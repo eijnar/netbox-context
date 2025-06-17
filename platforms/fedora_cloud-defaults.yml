@@ -1,5 +1,5 @@
 cloud_init:
-  default_user: adminops
+  default_user: bootstrap
   packages:
   - qemu-guest-agent
   - vim

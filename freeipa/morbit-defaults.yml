@@ -1,5 +1,5 @@
 freeipa:
   domain: "ipa.morbit.se"
-  realm: "ipa.morbit.se"
+  realm: "IPA.MORBIT.SE"
   client:
     mkhomedir: true

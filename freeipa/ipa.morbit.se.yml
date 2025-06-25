@@ -6,3 +6,7 @@ ipa:
   server:
     kra: true
     dns: true
+    dns_forwarders:
+      - "46.227.67.134"
+      - "192.165.9.158"
+    dns_forward_policy: "only"

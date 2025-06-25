@@ -1,4 +1,4 @@
 networking:
-  dns_servers:
-    - 172.30.149.80
-    - 172.30.149.67
+  fallback_dns_servers:
+    - 46.227.67.134
+    - 192.165.9.158

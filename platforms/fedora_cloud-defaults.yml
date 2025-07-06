@@ -1,5 +1,5 @@
 cloud_init:
-  default_user: bootstrap
+  default_user: ansible
   packages:
     - qemu-guest-agent
     - vim

@@ -11,7 +11,7 @@ ipa:
       - "192.165.9.158"
     dns_forward_policy: "only"
   automation: 
-    vault_base_path: "secrets/freeipa"
+    vault_base_path: "freeipa"
     admin_user:
       username: "ansible_admin"
     host_user:

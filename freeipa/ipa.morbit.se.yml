@@ -12,6 +12,7 @@ ipa:
     dns_forward_policy: "only"
   automation: 
     vault_base_path: "freeipa"
+    vault_mount_point: "secret"
     admin_user:
       username: "ansible_admin"
     host_user:

@@ -1,4 +1,4 @@
-ipa:
+freeipa:
   domain: "ipa.morbit.se"
   realm: "IPA.MORBIT.SE"
   client:
@@ -13,7 +13,11 @@ ipa:
   automation: 
     vault_base_path: "freeipa/passwords"
     vault_mount_point: "secret"
-    admin_user:
-      username: "ansible_admin"
-    host_user:
-      username: "ansible_host"
+    users:
+      - username: ansible_admin
+        shell: /sbin/nologin
+        comment: Automation admin account
+      - username: ansible_host
+        shell: /sbin/nologin
+        comment: Automation account for host join
+    

@@ -15,9 +15,11 @@ freeipa:
     vault_mount_point: "secret"
     users:
       - username: ansible_admin
+        first_name: Ansible
+        last_name: Administrator
         shell: /sbin/nologin
-        comment: Automation admin account
       - username: ansible_host
+        first_name: Ansible
+        last_name: Host Administrator
         shell: /sbin/nologin
-        comment: Automation account for host join
     
